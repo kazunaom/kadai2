@@ -1,0 +1,7 @@
+SELECT id FROM gs_an_table WHERE id=1 OR id=3 OR id=5;
+SELECT * FROM gs_an_table WHERE id >=4 AND id <= 8;
+SELECT * FROM gs_an_table WHERE email LIKE ʻ%test1%ʻ; 
+SELECT * FROM gs_an_table ORDER BY indate DESC; 
+SELECT * FROM gs_an_table WHERE age = 20 AND indate LIKE ʻ2017-05-26%‘;
+SELECT * FROM gs_an_table ORDER BY indate DESC LIMIT5; 
+SELECT * FROM gs_an_table GROUP BY age =10 OR age =20 OR age =30 OR age =40;
